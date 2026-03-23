@@ -1,3 +1,12 @@
+---
+title: Small Business Sales & Profit Analyzer
+emoji: 📊
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+---
+
 # Small Business Sales & Profit Analyzer
 
 A comprehensive Streamlit-based web application for analyzing sales and profit data for small businesses.
@@ -63,7 +72,12 @@ Use any of these credentials to login:
   - Dashboard with analytics
   - Data generation and filtering
   - Interactive visualizations
+  - Reports & Email page
 
+- `pdf_report.py` - PDF report generation using fpdf2
+- `email_service.py` - SMTP email automation service
+- `db.py` - Supabase database operations
+- `supabase_client.py` - Supabase client configuration
 - `requirements.txt` - Python dependencies
 
 ## Technologies Used
@@ -72,6 +86,9 @@ Use any of these credentials to login:
 - **Pandas** - Data manipulation and analysis
 - **Plotly** - Interactive charts and visualizations
 - **NumPy** - Numerical computations
+- **fpdf2** - PDF report generation
+- **smtplib** - Email automation (built-in Python)
+- **Supabase** - Cloud database backend
 
 ## Features in Detail
 
@@ -93,12 +110,31 @@ Use any of these credentials to login:
 
 ## Future Enhancements
 
-- Database integration for persistent data storage
-- User registration and profile management
 - Advanced analytics and forecasting
-- Email reports and notifications
 - Multi-user role management
 - Real-time data updates
+
+## Deployment / Hosting
+
+### Streamlit Community Cloud (Recommended - Free)
+1. Push this repo to GitHub
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Connect your GitHub repo and select `app.py`
+4. Add `SUPABASE_URL` and `SUPABASE_KEY` in the **Secrets** section (TOML format):
+   ```toml
+   SUPABASE_URL = "your-url"
+   SUPABASE_KEY = "your-key"
+   ```
+5. Click **Deploy**
+
+### Docker
+```bash
+docker build -t business-analyzer .
+docker run -p 8501:8501 --env-file .env business-analyzer
+```
+
+### Render / Railway / Heroku
+The repo includes `Procfile` and `render.yaml` for one-click deployment on these platforms. Set the `SUPABASE_URL` and `SUPABASE_KEY` environment variables in the hosting dashboard.
 
 ## Notes
 

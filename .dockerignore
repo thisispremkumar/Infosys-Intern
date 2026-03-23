@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.csv
+pdf_content.txt
+.git/
+.gitignore
+*.pdf
+run_app.bat
+QUICKSTART.md
+render.yaml
+Procfile
+setup.sql
+users.json
+local_data/

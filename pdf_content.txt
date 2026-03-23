@@ -1,0 +1,76 @@
+Small Business Sales & Profit Analyzer
+Project Statement
+Small and micro-business owners often struggle to track sales, expenses, and profit trends due
+to a lack of easy-to-use, affordable tools. While enterprise-level ERP systems exist, they are
+often too complex and costly for small shop owners, home-based businesses, or online sellers.
+This project aims to develop an open-source, user-friendly tool that allows business owners
+to log daily sales and expenses, automatically calculate profits, and generate weekly/monthly
+reports with clear visualizations. The system will include features for expense categorization,
+inventory adjustments, and predictive profit trends using the latest analytics techniques. By
+providing actionable insights in an accessible format, this tool will help small businesses make
+informed decisions, control costs, and maximize profitability.
+Outcomes
+• Daily Sales & Expense Logging – Simple interface for adding transactions quickly.
+• Automated Profit Calculation – Calculates daily, weekly, and monthly profit.
+• Category-wise Analysis – Breaks down income and expenses by category.
+• Inventory Adjustment Feature – Optionally track inventory to link cost of goods sold
+(COGS).
+• Report Generation – Auto-generated PDF/Excel reports for weekly and monthly
+summaries.
+• Predictive Trends – AI-assisted prediction of future sales/profits based on historical
+data.
+• Data Visualization Dashboard – Clear charts for sales trends, expense breakdown,
+and profit over time.
+• Secure User Accounts – Multiple business profiles per user with role-based access
+control.
+4. Modules to be Implemented
+1. User Authentication & Profile Management
+o Secure registration and login (JWT authentication).
+o Profile creation for multiple businesses.
+o Role-based access (Owner, Accountant, Staff).
+2. Sales & Expense Management Module
+o Add, edit, and delete transactions.
+o Categorize expenses (Rent, Utilities, Supplies, etc.).
+o Attach receipts or invoice images.
+3. Profit & Inventory Analysis Module
+o Automatic profit calculation.
+o Optional inventory tracking for COGS calculation.
+o Alerts for low stock items.
+4. Analytics & Visualization Module
+o Charts for sales trends, profit margins, and expense categories.
+o Weekly/monthly summary views.
+o AI-based forecasting for next month’s sales and profit.
+5. Report Generation Module
+o Export reports to PDF or Excel.
+o Email report scheduling.
+6. Admin Dashboard
+o Manage business profiles and users.
+o Monitor usage and data quality.
+o Configure system settings.
+5. Week-wise Milestones
+Milestone 1 (Weeks 1–2) – Authentication & Basic Transaction Logging
+• Implement secure registration/login with JWT.
+• Create profile management for businesses.
+• Build basic sales/expense input forms.
+Milestone 2 (Weeks 3–4) – Core Profit & Inventory Tracking
+• Implement profit calculation logic.
+• Add inventory tracking with COGS computation.
+• Simple dashboard with daily totals.
+Milestone 3 (Weeks 5–6) – Advanced Analytics & Visualization
+• Create interactive charts (sales, profit, expenses).
+• Implement AI-based forecasting (e.g., Prophet or scikit-learn regression).
+• Category-wise expense breakdown view.
+Milestone 4 (Weeks 7–8) – Reports, Admin, and Deployment
+• Build PDF/Excel report generation.
+• Create Admin dashboard for system monitoring.
+• Containerize with Docker and deploy to free cloud hosting.
+• Final documentation and presentation.
+6. Evaluation Criteria
+• End of Week 2: Functional authentication and basic transaction logging.
+• End of Week 4: Working profit and inventory tracking.
+• End of Week 6: Fully functional analytics dashboard with forecasting.
+• End of Week 8: Report generation, admin control, and deployment complete.
+7. Work Flow Diagram
+8. Architecture Diagram
+9. Data Schema Diagram
+

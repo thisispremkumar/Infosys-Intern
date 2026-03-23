@@ -1,0 +1,26 @@
+[
+  {
+    "Date": "2026-03-09",
+    "Category": "Rent",
+    "Amount": 0.01,
+    "Description": "",
+    "Region": "North",
+    "id": "6812a83c-e5a3-43df-a01e-42215d8cafb8"
+  },
+  {
+    "Date": "2026-03-09",
+    "Category": "Rent",
+    "Amount": 0.01,
+    "Description": "",
+    "Region": "North",
+    "id": "35df51af-d725-4d25-b12e-30b32257fa39"
+  },
+  {
+    "Date": "2026-03-09",
+    "Category": "Rent",
+    "Amount": 0.01,
+    "Description": "",
+    "Region": "North",
+    "id": "4aa3c615-9c14-494a-8908-0862bc82d005"
+  }
+]
